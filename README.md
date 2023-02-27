@@ -5,6 +5,8 @@
 2. Para que serve um array ?
   - um array é uma estrutura de dados que serve para guardar elementos em um espaço da memória. Estes espaços da memória são chamados de variáveis.
 3. diferença entre os métodos forEach e map.
+4. sort()
+  - O método sort converte elementos em strings e realiza a comparação ordenando de acordo com a pontuação de código Unicode. Observe que método sort coloca o 10 e o 100 antes de 2 porque a string “10” vem antes de “2” ao fazer uma comparação de strings. O mesmo acontece na ordenação da variável p onde as letras maiusculas são ordenadas primeiros que as letras minúsculas.
 
 
 # Métodos de Array em JavaScript
