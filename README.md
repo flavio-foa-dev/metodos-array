@@ -4,6 +4,8 @@
  - Os arrays são estruturas que servem para guardar dados, e organizá-los. Seu objetivo é ser um espaço fixo na memória do computador que armazena elementos. Esses elementos podem ser acessados por um tipo de indicação, que chamamos de índice.
 2. Para que serve um array ?
   - um array é uma estrutura de dados que serve para guardar elementos em um espaço da memória. Estes espaços da memória são chamados de variáveis.
+3. diferença entre os métodos forEach e map.
+
 
 # Métodos de Array em JavaScript
 
