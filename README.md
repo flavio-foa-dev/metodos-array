@@ -7,6 +7,7 @@
 3. diferença entre os métodos forEach e map.
 4. sort()
   - O método sort converte elementos em strings e realiza a comparação ordenando de acordo com a pontuação de código Unicode. Observe que método sort coloca o 10 e o 100 antes de 2 porque a string “10” vem antes de “2” ao fazer uma comparação de strings. O mesmo acontece na ordenação da variável p onde as letras maiusculas são ordenadas primeiros que as letras minúsculas.
+5. function declaration e function expression
 
 
 # Métodos de Array em JavaScript
@@ -103,5 +104,46 @@ console.log(arr[0]);              // exibe 'este é o primeiro elemento'
 console.log(arr[1]);              // exibe 'este é o segundo elemento'
 console.log(arr[arr.length - 1]); // exibe 'este e o elemento final'
 ```
+Relação entre length e propriedades numéricas
+```
+let frutas = [];
+frutas.push('banana', 'maça', 'pêssego');
+console.log(frutas.length); // 3
+
+frutas[5] = 'manga';
+console.log(frutas[5]); // 'manga'
+console.log(Object.keys(frutas)); // ['0', '1', '2', '5']
+console.log(frutas.length); // 6
+
+Configurar a propriedade length diretamente, também resulta em um comportamento especial:
+frutas.length = 10;
+console.log(Object.keys(frutas)); // ['0', '1', '2', '5']
+console.log(frutas.length); // 10
+
+Diminuir o valor de length, entretanto, apaga elementos:
+frutas.length = 2;
+console.log(Object.keys(frutas)); // ['0', '1']
+console.log(frutas.length); // 2
+```
+# Array.prototype
+Permite a adicao de propiedades para todos os objetos array.
+
+### Metodos
+
+- Array.from()
+Cria uma nova instância de Array a partir de um objeto semelhante ou iterável.
+
+- Array.isArray()
+Retorna true se a variável é um array e false caso contrário.
+
+- Array.of()
+Cria uma nova instância de Array com um número variável de argumentos, independentemente do número ou tipo dos argumentos.
+
+
+
+
+
+
+
 
 
