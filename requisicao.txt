@@ -1,0 +1,56 @@
+https://guilhermeonrails.github.io/casadocodigo/livros.json
+
+
+
+// 1) Crie uma função que receba 3 parâmetros:
+o nome de um livro,
+a quantidade de páginas
+e a autoria.
+Retorne um objeto no formato:
+{titulo: "nome do livro", paginas: "número de páginas", autoria: "nome da pessoa"}
+// Exemplo:
+// objLivro('Antes do Baile Verde', 234, 'Lygia Fagundes Telles')
+// retorna o objeto:// {
+//   titulo: 'Antes do Baile Verde',
+//   paginas: 234,
+//   autoria: 'Lygia Fagundes Telles'
+// }
+
+// 2) Aproveite a função acima em outra função,
+ que deve retornar a seguinte frase: "O livro XXXX foi escrito por XXX e tem XXX páginas".
+  Você deve utilizar a função que já está pronta,
+  e não reescrever a lógica dela dentro dessa nova função.
+
+// 3) Crie uma função que receba um objeto como o abaixo:
+// const pessoa = {
+//   nome: 'Nazaré',
+//   sobrenome: 'Tedesco',
+// }
+// Dado um objeto que tem uma propriedade 'nome' e uma propriedade 'sobrenome', a função deve retornar um novo objeto com as mesmas propriedades que o objeto recebido e mais uma propriedade, chamada 'nomeCompleto', cujo valor é uma string com o nome e sobrenome separados por um espaço.
+ Exemplo de retorno:// {
+//   nome: 'Nazaré',
+//   sobrenome: 'Tedesco',
+//   nomeCompleto: 'Nazaré Tedesco'
+// }
+
+4) Crie uma função que receba o objeto abaixo e o nome de uma das chaves, e retorne a soma de todos os elementos do array que for selecionado através da chave.
+
+
+Você é a sua história! 🖤
+
+”Como me diferenciar em processos seletivos?” conte sua história!
+
+Sua história carrega sua identidade, valores, propósito, habilidades e experiências: isso é tudo que uma pessoa recrutadora quer saber.
+
+Mais que cursos e certificados, o que importa é o que te move e o que faz com o que aprende. Você só precisa ter 70% de aderência com os requisitos da vaga e demonstrar compromisso de aprender os outros 30%. Contar sua história é o melhor caminho para comprovar seu compromisso com seu desenvolvimento.
+
+Apresentar toda a vida em poucos minutos não é fácil, mas existem duas ferramentas para ajudar: método star + storytelling.
+
+A primeira te ajudará a trabalhar #autoconhecimento , mapeamento e domínio de suas habilidades. A segunda te ajudará a contar de forma atraente.
+
+Em 5 passos:
+1- Mapear suas vivências (acadêmicas, pessoais e profissionais)
+2- Identificar #habilidades e #aprendizados desenvolvidos ao longo de sua história.
+3- Estudar o perfil da vaga e entender o que é esperado.
+4- Encontrar os pontos em comum entre o esperado e a sua história.
+5- Estruturar e contar em #storytelling.
